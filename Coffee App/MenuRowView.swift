@@ -11,7 +11,7 @@ struct MenuRowView: View {
     var item: Int
     var body: some View {
         HStack {
-            Text("Espresso").foregroundColor(.white)
+            Text("Espresso").foregroundColor(.black)
             Spacer()
             if let img = UIImage(named: "drink") {
                 Image(uiImage: img).resizable().scaledToFit().frame(width: 50)
@@ -19,6 +19,7 @@ struct MenuRowView: View {
             else {
                 Image("fallback").resizable().scaledToFit().frame(width: 50).clipShape(Circle())
             }
+            RatingsView(rating: 4)
         }
     }
 }

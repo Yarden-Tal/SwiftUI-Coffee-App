@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct OrderView: View {
-    var orders: [Int]
+    var orders: [Int] = [1,2,3,4,5]
     var body: some View {
         Image(systemName: orders.isEmpty ? "cart" : "cart.circle.fill").padding(.vertical)
         // Order details
         ScrollView {
             ForEach(orders, id: \.self) { order in
-                OrderRowView(order: order)
+                OrderRowView(order: order).padding(4).background(.regularMaterial,in:RoundedRectangle(cornerRadius: 10))
+                    .shadow(radius: 10).opacity(0.8)
             }
         // Items
         }

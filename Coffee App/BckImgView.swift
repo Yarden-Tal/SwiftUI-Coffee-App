@@ -9,7 +9,7 @@ import SwiftUI
 
 struct BckImgView: View {
     var body: some View {
-        Image("coffee").resizable().scaledToFill().opacity(0.5).grayscale(0.5).frame(width: .leastNormalMagnitude)
+        Image("coffee").resizable().scaledToFill().opacity(0.7).grayscale(0.5).frame(width: .leastNormalMagnitude)
     }
 }
 

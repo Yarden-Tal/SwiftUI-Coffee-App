@@ -9,14 +9,20 @@ import SwiftUI
 
 struct ContentView: View {
     var orders: [Int] = [1]
+    @State private var doShowOrders: Bool = true
     var body: some View {
             ZStack {
                 // Background img
                 BckImgView()
                 VStack {
                     HeaderView()
-                    OrderView(orders: orders)
-                    MenuView()
+                    MenuCartBtn(doShowOrders: $doShowOrders)
+                    if (doShowOrders) {
+                        OrderView(orders: orders)
+                    } else {
+                        MenuItemView().padding(5).background(Color.gray.opacity(0.7))
+                        MenuView()
+                    }
                 }.padding(.all).fontWeight(.bold)
             }
     }
