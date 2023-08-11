@@ -32,6 +32,7 @@
 		4851D42E2A5DF06B00359C92 /* BckImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BckImgView.swift; sourceTree = "<group>"; };
 		4851D4302A5DF7DA00359C92 /* RatingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingsView.swift; sourceTree = "<group>"; };
 		488A9C912A82F50F00F2C163 /* MenuCartBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCartBtn.swift; sourceTree = "<group>"; };
+		488A9CDE2A86B1AB00F2C163 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4891FDB32A5DA8F000556693 /* Coffee App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4891FDB62A5DA8F000556693 /* Coffee_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_AppApp.swift; sourceTree = "<group>"; };
 		4891FDB82A5DA8F000556693 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +54,7 @@
 		4891FDAA2A5DA8F000556693 = {
 			isa = PBXGroup;
 			children = (
+				488A9CDE2A86B1AB00F2C163 /* README.md */,
 				4891FDB52A5DA8F000556693 /* Coffee App */,
 				4891FDB42A5DA8F000556693 /* Products */,
 			);

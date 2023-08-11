@@ -10,7 +10,7 @@ import SwiftUI
 struct HeaderView: View {
     var body: some View {
         Text("Order Coffee!").font(.title).foregroundColor(.black).fontWeight(.heavy).opacity(0.7)
-        Text("Fresh & delicious").font(.title2).foregroundColor(.gray).fontWeight(.semibold).opacity(0.8)
+        Text("Fresh & delicious").font(.title2).foregroundColor(.orange).fontWeight(.semibold).opacity(0.8)
     }
 }
 
